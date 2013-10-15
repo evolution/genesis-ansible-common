@@ -1,0 +1,10 @@
+- hosts:              webservers
+  gather_facts:       no
+  tasks:
+    - name:           Common packages
+      apt:            pkg=${item} update_cache=yes
+      sudo:           yes
+      with_items:
+        - build-essential
+        - autoconf
+        - git-core
