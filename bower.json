@@ -1,6 +1,6 @@
 {
   "name": "ansible-common",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/genesis/ansible-common",
   "authors": [
     "Eric Clemmons <eric@smarterspam.com>"
