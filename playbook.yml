@@ -7,4 +7,4 @@
       with_items:
         - build-essential
         - autoconf
-        - git-core
+        - git
